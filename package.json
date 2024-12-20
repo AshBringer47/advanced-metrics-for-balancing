@@ -1,0 +1,27 @@
+{
+  "name": "advanced-balancing-metrics",
+  "version": "1.0.4",
+  "description": "This is a package with general functionality and types for distributed system.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": [
+    "metrics",
+    "consul",
+    "typescript"
+  ],
+  "author": "ashbringer",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "systeminformation": "^5.23.5"
+  }
+}
